@@ -1,0 +1,42 @@
+#upozorneniFoto{
+  float:left;
+	overflow: auto;
+	width:300px;
+}
+.formularFoto{
+    justify-content: center;
+    margin-top:50px;
+    display: flex !important;
+}
+#nastaveniContainer{
+    margin-left:280px;
+    transition:0.5s;
+}
+.fotoZmen{
+  margin-top:20px;
+}
+@media (max-width: 1178px)
+{
+  #upozorneniFoto {
+    width: 200px;
+    font-size:smaller;
+  }
+}
+@media (max-width: 840px)
+{
+  #upozorneniFoto {
+    width: unset;
+    font-size:smaller;
+  }
+  .formularFoto{
+    display: unset!important; 
+  }
+}
+@media (max-width: 666px)
+{
+  #nastaveniContainer{
+    margin-left:15px;
+    margin-right:15px;
+  }
+}
+

@@ -1,0 +1,42 @@
+#openSidebar{
+  display:none;
+}
+#closeSidebar{
+  display:none;
+}
+#navMenu{
+  flex: 0 0 280px;
+  width: 280px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left:0;
+  float:left;
+  transition: 0.5s;
+}
+
+@media (max-width: 666px)
+{
+  #navMenu {
+    float:none;
+    position: unset;
+    width:unset;
+    text-align: center;
+    margin-bottom:20px;
+  }
+  #openSidebar{
+    margin-top:10px;
+    border: 1px solid black;
+    transition: 0.5s;
+  }
+  #closeSidebar{
+    margin-left:0;
+    border: 1px solid black;
+    position: absolute;
+    float:left;
+    display: block;
+  }
+  .d-flex.align-items-center.mb-3.mb-md-0.me-md-auto.link-dark.text-decoration-none{
+    justify-content: center;
+  }
+}

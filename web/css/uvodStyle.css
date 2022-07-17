@@ -1,0 +1,44 @@
+#uvodniTextikk{
+  margin-left:280px;
+  transition: 0.5s;
+
+}
+
+.btn.btn-secondary{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.menuUloha{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:25px;
+}
+.pozadiSef{
+  margin-top:60px;
+  border: 1px solid #ddd;
+  background-color: #fcfcfc;
+  margin-left:7%;
+  margin-right:7%;
+}
+.btn.btn-link{
+  text-decoration: none;
+}
+@media (max-width: 1296px)
+{
+  .menuUloha {
+    width:unset;
+  }
+  .formEdit{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 666px)
+{
+  #uvodniTextikk {
+    margin-left:0px;
+    margin-top:50px !important;
+    margin-bottom:50px !important;
+  }
+}

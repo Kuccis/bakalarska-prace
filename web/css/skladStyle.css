@@ -1,0 +1,508 @@
+
+
+.panel {
+    border: none;
+    box-shadow: none;
+}
+
+.panel-heading {
+    border-color:#eff2f7 ;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.panel-title {
+    color: #2A3542;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*https://www.bootdey.com/snippets/view/shop-product-detail#html*/
+
+.prod-cat li a{
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.prod-cat li a {
+    color: #3b3b3b;
+}
+
+.prod-cat li ul {
+    margin-left: 30px;
+}
+
+.prod-cat li ul li a{
+    border-bottom:none;
+}
+.prod-cat li ul li a:hover,.prod-cat li ul li a:focus, .prod-cat li ul li.active a , .prod-cat li a:hover,.prod-cat li a:focus, .prod-cat li a.active{
+    background: none;
+    color: #ff7261;
+}
+
+.pro-lab{
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+.pro-sort {
+    padding-right: 20px;
+    float: left;
+}
+
+.pro-page-list {
+    margin: 5px 0 0 0;
+}
+
+.product-list img{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+}
+
+.product-list .pro-img-box {
+    position: relative;
+}
+.pro-title {
+    color: #5A5A5A;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.product-list .price {
+    color:#fc5959 ;
+    font-size: 15px;
+}
+
+.pro-img-details {
+    margin-left: -15px;
+}
+
+.pro-img-details img {
+    width: 100%;
+}
+
+.pro-d-title {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.product_meta {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    margin: 15px 0;
+}
+
+.product_meta span {
+    display: block;
+    margin-bottom: 10px;
+}
+.product_meta a, .pro-price{
+    color:#fc5959 ;
+}
+
+.pro-price, .amount-old {
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.quantity {
+    width: 120px;
+}
+
+.pro-img-list {
+    margin: 10px 0 0 -15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.pro-img-list a {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pro-d-head {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+/*https://www.bootdey.com/snippets/view/bs4-shop-product-list#html */
+
+
+.shop-default #divProductList {
+    transition: all 0.1s ease-in-out;
+}
+
+.shop-default .shop-grid-section-header {
+    height: 62px;
+    padding: 15px;
+    border-bottom: 1px solid #f1f1f1
+}
+
+.shop-default .shop-grid-section-header .shop-grid-section-title {
+    margin: 0;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    color: #111
+}
+
+.shop-default .shop-grid-section-footer {
+    padding: 1rem
+}
+
+
+.shop-default .aux-text {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: .875rem;
+    color: #2b2b2c
+}
+
+.shop-default .product .price-wrapper .price {
+    font-size: 32px;
+    color: #2b2b2c
+}
+
+.shop-default .product .price-wrapper .price sup {
+    font-size: 16px;
+    top: -1em;
+    font-weight: 400
+}
+
+.shop-default .product .price-wrapper .price .price-value {
+    margin: 0 3px
+}
+
+.shop-default .product .price-wrapper .price.discount {
+    text-decoration: none;
+    margin-right: 8px
+}
+
+.shop-default .product .price-wrapper .price.discount .price-value {
+    margin: 0 1px;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: line-through
+}
+
+.shop-default .product .price-wrapper .price.discount sup {
+    font-size: 14px
+}
+
+.shop-cards .product.product--style-2 {
+    position: relative
+}
+
+.shop-cards .product .product-description {
+    color: #818a91;
+    font-size: .875rem;
+    line-height: 1.6
+}
+
+.shop-cards .product .product-long-description {
+    max-width: 360px;
+    margin: 0 auto
+}
+
+.shop-cards.shop-tech .product-buttons .btn-cart {
+    font-size: 0.625rem !important;
+    padding: 0.625rem 0.875rem !important
+}
+
+.shop-cards.shop-tech .product-buttons .btn-icon:hover,
+.shop-cards.shop-tech .product-buttons .btn-icon.active {
+    color: #2b2b2c
+}
+
+.shop-cards .product .price-wrapper .price-sm {
+    font-size: 24px
+}
+
+.shop-cards .product .price-wrapper .price-sm.discount .price-value {
+    font-size: 1rem;
+    font-weight: 600
+}
+
+.shop-grid .product {
+    margin: 0;
+    padding: 1.5rem
+}
+
+.shop-sportswear .product {
+    background-color: #FFF
+}
+
+.shop-sportswear .block-image {
+    padding: 1.5rem
+}
+
+.shop-minimalist .product {
+    border: 0
+}
+
+.shop-minimalist .product .product-image {
+    position: relative;
+    background: #ebebeb;
+    padding: 2rem
+}
+
+.shop-minimalist .product:not(.no-radius) .product-image,
+.shop-minimalist .product .product-image .mask {
+    border-radius: .25rem
+}
+
+.shop-minimalist .product .product-image .product-title {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: none;
+    margin: 30px 0
+}
+
+
+.product-swiper-container {
+    position: relative;
+    padding-top: 20px
+}
+
+.product-swiper-container .swiper-slide img {
+    max-width: 100%
+}
+
+.product-swiper-container .swiper-pagination {
+    top: 0;
+    bottom: auto;
+    text-align: left
+}
+
+.product-description-wrapper .product-title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    color: #2b2b2c
+}
+
+
+.block {
+    margin: 0;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    position: relative;
+    cursor: default;
+    border-radius: .25rem .25rem .25rem;
+    -moz-border-radius: .25rem .25rem .25rem
+}
+
+.block:after,
+.block:before {
+    display: table;
+    content: ""
+}
+
+.block:after {
+    clear: both
+}
+
+a>.block {
+    cursor: pointer
+}
+
+.block.no-radius>.block-image img {
+    border-radius: 0 !important
+}
+
+.block .lead {
+    margin-bottom: 0
+}
+
+.block-stack-wrapper {
+    border-radius: .25rem
+}
+
+.block-stack-wrapper .row {
+    background: #fff
+}
+
+@media (max-width: 991px) {
+    .block-stack-wrapper .row {
+        margin-bottom: 20px
+    }
+}
+
+.block .block-body {
+    padding: 1.5rem 1.5rem
+}
+
+.block .block-body>p {
+    margin-bottom: 0
+}
+
+.block .block-image {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    position: relative
+}
+
+.z-depth-2-top, .z-depth-2-top--hover:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+.heading-5 {
+    font-size: 1.125rem !important;
+}
+.heading {
+    margin: 0 0 6px;
+    padding: 0;
+    text-transform: none;
+    font-family: "Nunito",sans-serif;
+    font-weight: 600;
+    color: #111;
+    line-height: 1.46;
+}
+
+
+#navItems{
+    transition: 0.5s;
+    margin-left:280px;
+}
+.pocetVec{
+    vertical-align: middle;
+    width:59px;
+}
+.searchBar{
+    justify-content: flex-end;
+}
+.vecPoc{
+    text-align:center;
+    vertical-align: middle;
+    width:59px;
+}
+.skladem{
+    color:green;
+    font-weight: bold;
+}
+.neskladem{
+    
+    color:red;
+    font-weight: bold;
+}
+.shopList{
+  margin-left:330px;
+  margin-top:30px;
+  transition: 0.5s;
+}
+.form-control{
+  margin-left:20px;
+  margin-top:20px;
+  width:30%;
+  margin-bottom:20px;
+}
+.btn.btn-danger{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.btn.btn-success{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.btn.btn-primary{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.btn.btn-light{
+  border: 1px solid black;
+  margin-bottom:5px;
+}
+.btn.btn-light:hover{
+  background-color:#c8c8c8;
+}
+.textItemDlouhy{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width:500px;
+}
+.odkazItem{
+  color:black;
+  text-decoration: none;
+}
+.odkazItem:hover{
+  color:black;
+  text-decoration: none;
+}
+.hledanaVec{
+    width:400px;
+}
+@media (max-width: 1400px)
+{
+  .form-control {
+    width:50%;
+  }
+}
+@media (max-width: 1305px)
+{
+  .textItemDlouhy{
+    max-width: 400px;
+    vertical-align:middle;
+  }
+  .odkazItem{
+      display:none;
+  }
+  
+}
+@media (max-width: 1201px)
+{
+  .textItemDlouhy{
+    max-width: 300px;
+  }
+}
+@media (max-width: 1101px)
+{
+  .textItemDlouhy{
+    max-width: 200px;
+  }
+  .hledaciPole{
+      display:unset !important;
+  }
+  .searchBar{
+      justify-content: center;
+  }
+}
+@media (max-width: 1000px)
+{
+  .navbar{
+    display:block;
+  }
+  .form-control{
+    width:100%;
+    height:45px;
+  }
+  .row.col{
+    margin-bottom:3px;
+    margin-left: 0px !important;
+  }
+}
+@media (max-width: 666px)
+{
+  #navItems {
+    margin-left:0px;
+    margin-top:0px !important;
+  }
+  .shopList{
+     
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:10px !important;
+  }
+}

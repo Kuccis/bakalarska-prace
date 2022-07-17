@@ -1,0 +1,153 @@
+.kalendarContainer{
+  margin-left:280px;
+  transition:0.5s;
+}
+.card-header{
+    display: block;
+    overflow: auto;
+}
+.card-footer{
+    display: block;
+    overflow: auto;
+}
+.vzdyZobraz{
+  display:revert !important;
+}
+.pozadiSef{
+  border: 1px solid #ddd;
+  background-color: #fcfcfc;
+}
+.prava{
+  text-align: end;
+}
+.leva{
+  float: left;
+}
+.poznamkySekce{
+  margin-top:20px;
+}
+#textovePole{
+  margin-top:40px;
+}
+/*	--------------------------------------------------
+	:: Table Filter
+	-------------------------------------------------- */
+
+.btn-group{
+  float:right;
+}
+.media-meta{
+  float:right;
+}
+.panel {
+	border: 1px solid #ddd;
+	background-color: #fcfcfc;
+}
+.panel .btn-group {
+	margin: 15px 0 30px;
+}
+.table-filter {
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+.table-filter.tbody tr:hover {
+	cursor: pointer;
+	background-color: #eee;
+}
+.table-filter.tbody tr.td {
+	padding: 10px;
+	vertical-align: middle;
+	border-top-color: #eee;
+}
+.table-filter .media-meta {
+	color: #999;
+}
+.table-filter .media .title {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: normal;
+	margin: 0;
+}
+.table-filter .media .title span {
+	font-size: .8em;
+	margin-right: 20px;
+}
+.table-filter .media .title span.hotove {
+	color: #5cb85c;
+  float:right;
+}
+.table-filter .media .title span.probihajici {
+	color: #f0ad4e;
+  float:right;
+}
+.table-filter .media .title span.nesplnene {
+	color: #d9534f;
+  float:right;
+}
+.table-filter .media .summary {
+	font-size: 14px;
+  height: 18px;
+  width: 400px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#textUkoluPodrobny{
+  overflow-wrap: break-word;
+  margin-left:2%;
+  margin-right:2%;
+}
+
+
+/*--------------------------------CSS pro zobrazeni u role SEF--------------------------------------------*/
+.btn.btn-light:hover{
+  background-color: #b2bac3;
+}
+.btn.btn-sm.btn-primary.btn-create{
+  float:right;
+}
+.panel-table .panel-footer .col{
+ line-height: 34px;
+ height: 34px;
+}
+
+.panel-table .panel-heading .col h3{
+ line-height: 30px;
+ height: 30px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr > td{
+  line-height: 34px;
+}
+@media (max-width: 1315px)
+{
+  .prava{
+      float:left !important;
+      text-align:left !important;
+  }
+  .leva{
+      float:none !important;
+  }
+}
+@media (max-width: 666px)
+{
+  .kalendarContainer{
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:50px !important;
+    margin-bottom:50px !important;
+  }
+}
+@media (max-width: 454px)
+{
+  .panel-title{
+    font-size:unset !important;
+  }
+}
+
+
